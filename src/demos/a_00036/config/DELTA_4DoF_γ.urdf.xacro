@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="DELTA_4DoF_γ">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import DELTA_4DoF_γ urdf file -->
+    <xacro:include filename="/home/robot/ws/src/descriptions/urdf/A_00036-02.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="DELTA_4DoF_γ.ros2_control.xacro" />
+
+
+    <xacro:DELTA_4DoF_γ_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: descriptions
+    relative_path: urdf/A_00036-02.ardf
+  srdf:
+    relative_path: config/DELTA_4DoF_γ.srdf
+  package_settings:
+    author_name: Finkbeiner
+    author_email: fabian.finkbeiner@hs-heilbronn.de
+    generated_timestamp: 1756798568
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

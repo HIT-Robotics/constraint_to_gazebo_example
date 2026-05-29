@@ -1,0 +1,13 @@
+# Default initial positions for DELTA_4DoF_γ's ros2_control fake system
+
+initial_positions:
+  tool_joint_0: 0.0
+  tool_joint_1: 0.0
+  tool_joint_2: -1.0
+  tool_joint_3: 0.0
+  tool_joint_4: 0.0
+  tool_joint_5: 0.0
+  Chain1_1: 0.0
+  Chain2_1: 0.0
+  Chain3_1: 0.0
+  Chain4_1: 0.0
