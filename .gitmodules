@@ -1,0 +1,15 @@
+[submodule "src/urdfdom"]
+	path = src/urdfdom
+	url = https://github.com/HIT-Robotics/urdfdom.git
+[submodule "src/urdfdom_headers"]
+	path = src/urdfdom_headers
+	url = https://github.com/HIT-Robotics/urdfdom_headers.git
+[submodule "src/robot_model"]
+	path = src/robot_model
+	url = https://github.com/HIT-Robotics/robot_model.git
+[submodule "src/joint_state_transformer"]
+	path = src/joint_state_transformer
+	url = https://github.com/HIT-Robotics/joint_state_transformer.git
+[submodule "src/pinocchio"]
+	path = src/pinocchio
+	url = https://github.com/stack-of-tasks/pinocchio.git
