@@ -1,4 +1,9 @@
 # joint_state_transformer_example
+<p align="center">
+  <img src="docs/logos/autonox_Robotics_Logo.png" height="60" style="margin-right: 40px;">
+  <img src="docs/logos/hhn_logo.png" height="80">
+</p>
+
 
 This repository demonstrates the usage of the **joint_state_transformer** for constrained robot kinematics. It enables the transformation of joint states for robots with closed kinematic chains and passive joints.  Each robot is provided as its own package. The robot-specific URDF and meshes are provided in the **descriptions** package.
 
