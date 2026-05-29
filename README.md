@@ -26,7 +26,7 @@ The repository includes the following packages:
 - **robot_model**: solves constraint equations for closed-loop structures
 - **joint_state_transformer** package: uses the **robot_model** to transform the trajectory and calculate the passive angles
 - **descriptions**: provides the URDF files and meshes for the robots
-- robot-specific MoveIt packages: provide a simple demonstration with RViz using the demo.launch.py
+- robot-specific MoveIt packages in the demo folder: provide a simple demonstration with RViz using the demo.launch.py
 
 ## Prerequisites
 
