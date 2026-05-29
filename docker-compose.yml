@@ -1,0 +1,12 @@
+services:
+  ros:
+    image: joint_state_transformer_example
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes: 
+      - ./src:/home/robot/ws/src
+      - ./buffer/build:/home/robot/ws/build
+      - ./buffer/install:/home/robot/ws/install
+      - ./buffer/log:/home/robot/ws/log
+    tty: true
